@@ -1,0 +1,186 @@
+.body{
+    margin-left: 30px;
+    
+    }
+
+
+
+.five-pic{
+    height: 300px;
+    width: 300px;
+}
+.seven-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.eleven-quote{
+    font-size: larger;
+    border: 0px;
+    border-left: 3px;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+.fourteen-list-color{
+    color: blue;
+}
+
+.fourteen-list-color :nth-child(1){
+    color: brown;
+}
+
+a:hover{
+    color: orangered;
+    font-size: large;
+}
+
+a:focus{
+    color: rgb(123, 255, 0);
+}
+
+/* add more style to the first and last child */
+.nineteen-list :first-child{
+    color: red;
+}
+
+.nineteen-list :last-child{
+    color: rgb(8, 0, 255);
+}
+
+.twenty-text{
+    color: brown;
+}
+
+.twenty-one-text{
+color: #27b1ab;
+}
+
+.twenty-two-text{
+color: rgb(26, 155, 41);
+}
+
+.twenty-three-text{
+color: hsl(333, 72%, 38%);
+}
+
+.my-box{
+    height: 600px;
+    width: 500px;
+    background-image: url(https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-eyes-consciousness.jpg?itok=gvWPMDhQ&c=a75e254fe1da31f2732f6b0d7bce1413);
+}
+.my-box-two{
+    height: 600px;
+    width: 500px;
+    background-image: url(https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-eyes-consciousness.jpg?itok=gvWPMDhQ&c=a75e254fe1da31f2732f6b0d7bce1413);
+    background-position: 90%;
+    background-size:contain;
+    background-repeat:repeat;
+}
+.twenty-nine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.my-box-three{
+    height: 300px;
+    width: 250px;
+    border-style: solid ;
+    border-width: 5px;
+    border-color: black;
+    background-image: url(https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-eyes-consciousness.jpg?itok=gvWPMDhQ&c=a75e254fe1da31f2732f6b0d7bce1413);
+    box-shadow: 10px 15px 20px rgb(59, 211, 216);
+    margin-bottom: 40px;
+}
+
+.my-box-four{
+    height: 300px;
+    width: 250px;
+    border-style: solid ;
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 0px 15px 10px 20px rgb(216, 59, 177);
+    background-image: url(https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-eyes-consciousness.jpg?itok=gvWPMDhQ&c=a75e254fe1da31f2732f6b0d7bce1413);
+}
+
+.my-box-five{
+    height: 600px;
+    width: 500px;
+    background-image: url(https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-eyes-consciousness.jpg?itok=gvWPMDhQ&c=a75e254fe1da31f2732f6b0d7bce1413);
+    box-shadow:
+    1.6px 1.6px 1.2px rgba(0, 0, 0, 0.016),
+    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.024),
+    5.8px 5.8px 4.6px rgba(0, 0, 0, 0.03),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.035),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.04),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.045),
+    25.1px 25.1px 20.1px rgba(0, 0, 0, 0.049),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.054),
+    56.3px 56.3px 45px rgba(0, 0, 0, 0.06),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+}
+
+.thirty :nth-child(2){
+    margin-top: 20px;
+}
+
+.invisible-ink{
+    opacity: 0%;
+    font-size: 30px;
+}
+.invisible-ink:hover{
+    opacity: 100%;
+}
+
+.invisible-ink-2{
+    background-color: rgb(226, 208, 43);
+    color: rgb(38, 0, 255);
+    font-size: 30px;
+}
+.invisible-ink-2:hover{
+    color: red;
+    transition: color 500ms ease;
+}
+
+.ebay-logo{
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.ebay-logo :nth-child(1){
+    color:rgb(229, 47, 53);
+}
+.ebay-logo :nth-child(2){
+    color:rgb(0, 100, 211);
+  
+}
+.ebay-logo :nth-child(3){
+    color:rgb(245, 176, 0);
+
+}
+.ebay-logo :nth-child(4){
+    color:rgb(136, 185, 15);
+}
+
+.thirty-four{
+    transform: translate(50px, 40px) ;
+    transform: rotate(-45deg);
+}
+
+.thirty-five-image{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(3);
+    mix-blend-mode: difference;
+    margin-top: 130px;
+}
+.thirty-five-image-2{
+    height: 300px;
+    width: 300px;
+    mix-blend-mode: difference;
+    margin-top: 130px;
+}
