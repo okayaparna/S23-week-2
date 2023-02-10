@@ -117,6 +117,13 @@ color: rgb(26, 155, 41);
 color: hsl(333, 72%, 38%);
 }
 
+.two-boxes{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+
 .my-box{
     height: 600px;
     width: 500px;
@@ -129,6 +136,9 @@ color: hsl(333, 72%, 38%);
     background-position: 90%;
     background-size:contain;
     background-repeat:repeat;
+}
+.twenty-eight{
+    padding-top: 2%;
 }
 .twenty-nine{
     display: grid;
@@ -220,7 +230,7 @@ color: hsl(333, 72%, 38%);
 }
 
 .thirty-four{
-    transform: translate(50px, 40px) ;
+    transform: translate(25px, 20px) ;
     transform: rotate(-45deg);
 }
 
@@ -228,7 +238,6 @@ color: hsl(333, 72%, 38%);
     height: 300px;
     width: 300px;
     filter: grayscale(3);
-    mix-blend-mode: difference;
     margin-top: 130px;
 }
 .thirty-five-image-2{
