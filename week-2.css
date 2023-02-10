@@ -1,3 +1,15 @@
+.header{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 150px;
+}
+
+.header:hover{
+    color: lavender;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 200px;
+    transition: 0.5s;
+}
+
 .body{
     margin-left: 30px;
    background-color: rgb(185, 185, 240);
