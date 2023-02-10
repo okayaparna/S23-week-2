@@ -1,6 +1,7 @@
 .header{
     font-family: 'Press Start 2P', cursive;
     font-size: 150px;
+    text-align: center;
 }
 
 .header:hover{
@@ -11,10 +12,15 @@
 }
 
 .body{
-    margin-left: 30px;
+    margin-left: 70px;
    background-color: rgb(185, 185, 240);
    color: rgb(63, 63, 128);
+   margin-right: 70px;
     }
+.note{
+    font-size: 12px;
+    text-align: right;
+}    
 .one-text{
     text-align: justify;
     padding-top: 2%;
