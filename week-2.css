@@ -226,9 +226,10 @@ gap: 10px;
 }
 
 .ebay-logo{
-    font-size: 30px;
+    font-size: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'DM Sans', sans-serif;
 
 }
 
