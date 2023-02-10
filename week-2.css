@@ -1,17 +1,63 @@
 .body{
     margin-left: 30px;
-   
+   background-color: rgb(185, 185, 240);
+   color: rgb(63, 63, 128);
     }
-
+.one-text{
+    text-align: justify;
+    padding-top: 2%;
+}    
+.three-link{
+   padding-bottom: 5px; 
+}
+.four-link{
+    padding-bottom: 10px; 
+ }
+ 
 .five-pic{
     height: 300px;
     width: 300px;
+}
+.seven-text{
+    padding-top: 2%;
 }
 .seven-table{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+.absolute-url{
+    text-align: justify;
+    background-color: lavender;
+    padding: 10%;
+    border-radius: 15px;
+}
+.relative-url{
+    text-align: justify;
+    background-color: lavender;
+    padding: 10%;
+    border-radius: 15px;
+}
+.buttons{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20%;
+}
+
+.my-button-with-style{
+    background-color: rgb(65, 65, 130);
+    color: lavender;
+    padding: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    margin-bottom: 2%;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+
+}
+
 .eleven-quote{
     font-size: larger;
     border: 0px;
@@ -36,6 +82,15 @@ a:hover{
 a:focus{
     color: rgb(123, 255, 0);
 }
+
+.fifteen{
+    text-align: justify;
+}
+.eighteen{
+    padding-top:2%;
+    text-align: justify;
+}
+
 
 /* add more style to the first and last child */
 .nineteen-list :first-child{
